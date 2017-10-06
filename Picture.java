@@ -71,6 +71,13 @@ public class Picture
     /**
      * Change this picture to black/white display
      */
+    public void moveSun()
+    {
+        sun.slowMoveVertical(130);
+        
+    
+    }
+    
     public void setBlackAndWhite()
     {
         if (wall != null)   // only if it's painted already...
